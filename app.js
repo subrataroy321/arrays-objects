@@ -73,3 +73,39 @@ for (let i=0 ; i < cars.length ; i++) {
     let eachCar = cars[i];
     console.log(eachCar);
 }
+
+
+// Objects
+// Key-Value Pair
+
+const subrata = {
+    fullName: 'Subrata Roy',
+    age: 27,
+    myLocation: 'Atlanta',
+    palcesTraveled: ['New York', 'Canada', 'Texas']
+}
+
+console.log(subrata);
+
+// my location
+
+console.log(subrata.myLocation);
+
+//print new york
+
+console.log(subrata.placesTraveled[0]);
+
+const myReallyCoolPost = {
+    username: '@generalassembly',
+    likes: 1200,
+    comments: ['cool post', 'nice', 'hello'],
+    caption: 'Day 3 of SEI',
+    pictures: 'https://instagram.com/generalassembly/....',
+    shares: 100
+}
+
+console.log(myReallyCoolPost);
+
+myReallyCoolPost.myLocation = 'Atlanta';
+console.log(myReallyCoolPost);
+
