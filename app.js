@@ -58,8 +58,18 @@ for (var i = 0; i<teams.length ; i++) {
     console.log(eachTeam);
 }
 
+// print foods
 var foods =['burger', 'pizza', 'chicken', 'pasta', 'noodles']
 for (var i = 0; i<foods.length ; i++) {
     var eachFood = foods[i];
     console.log(eachFood);
+}
+
+// print cars
+const cars = ['Tesla', 'Honda', 'Toyota', 'Ford', 'BMW', 'Audi'];
+console.log(cars);
+
+for (let i=0 ; i < cars.length ; i++) {
+    let eachCar = cars[i];
+    console.log(eachCar);
 }
