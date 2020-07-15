@@ -148,7 +148,6 @@ sayHelloFinal();
 
 
 
-const numbers = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ];
 const otherNumbers = [ 10, 20 , 30 , 40 , 50 , 60 , 70 , 80 , 90 ];
 
 function printNumbers(array) {
@@ -157,11 +156,11 @@ function printNumbers(array) {
         //console.log(num);
         if (num < 50) {
             console.log("This number is less than 50: " +num);
-
+            
         } else {
             console.log("This number is greater than 50: " +num);
         }
-
+        
     }
     
 }
@@ -169,4 +168,17 @@ function printNumbers(array) {
 //printNumbers(numbers);
 printNumbers(otherNumbers);
 
+const numbers = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ];
 
+function addNumbers(array) {
+    let result = 0;
+
+    for (let i=0 ; i < array.length ; i++) {
+        let num = array[i];
+        result += num;
+
+    }
+    return result;
+}
+
+console.log(addNumbers(numbers));
