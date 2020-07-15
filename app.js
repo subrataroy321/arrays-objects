@@ -119,5 +119,54 @@ FourthOfJulyPost.caption = 'Writing code on the 4th';
 
 console.log(FourthOfJulyPost);
 
+// Functions
+
+
+//standard way
+function sayHello() {
+    console.log('Hello');
+}
+
+sayHello();
+
+// function expression
+
+const sayHelloAgain = function() {
+    console.log('Hello Again');
+}
+
+sayHelloAgain();
+
+// arrow function
+
+const sayHelloFinal = () => {
+    console.log('Hello for the last Time');
+
+}
+
+sayHelloFinal();
+
+
+
+const numbers = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 ];
+const otherNumbers = [ 10, 20 , 30 , 40 , 50 , 60 , 70 , 80 , 90 ];
+
+function printNumbers(array) {
+    for (let i = 0; i < array.length ; i++) {
+        let num = array[i];
+        //console.log(num);
+        if (num < 50) {
+            console.log("This number is less than 50: " +num);
+
+        } else {
+            console.log("This number is greater than 50: " +num);
+        }
+
+    }
+    
+}
+
+//printNumbers(numbers);
+printNumbers(otherNumbers);
 
 
