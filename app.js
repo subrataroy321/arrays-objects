@@ -82,7 +82,7 @@ const subrata = {
     fullName: 'Subrata Roy',
     age: 27,
     myLocation: 'Atlanta',
-    palcesTraveled: ['New York', 'Canada', 'Texas']
+    placesTraveled: ['New York', 'Canada', 'Texas']
 }
 
 console.log(subrata);
