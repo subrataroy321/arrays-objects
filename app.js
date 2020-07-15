@@ -44,3 +44,16 @@ while (otherNumberThree < numberFour) {
     console.log(otherNumberThree);
     otherNumberThree += 1;
 }
+
+// for loops
+
+for (var i = 0; i < 10; i++) {
+    console.log(i);
+
+}
+
+// print teams
+for (var i = 0; i<teams.length ; i++) {
+    var eachTeam = teams[i];
+    console.log(eachTeam);
+}
